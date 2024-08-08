@@ -1,0 +1,14 @@
+/* suprascriem stilizarea defaul a paginarii lui Bootstrap */
+
+.Pagination a {
+  color: var (--text-primary);
+}
+
+.Pagination a:hover {
+  color: var (--text-primary);
+}
+
+.Pagination span#pagination-active {
+  background-color: var(--bg-primary);
+  color: var (--text-primary);
+}
